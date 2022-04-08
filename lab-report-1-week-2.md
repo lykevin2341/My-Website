@@ -1,1 +1,2 @@
-![Lab 1 screenshot](Images/Screenshot.png)
+# Downloading and setting up VSCode
+
