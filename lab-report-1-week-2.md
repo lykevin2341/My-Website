@@ -1,1 +1,1 @@
-![Lab 1 screenshot](Screenshot.png)
+![Lab 1 screenshot](Images/Screenshot.png)
