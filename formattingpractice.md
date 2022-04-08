@@ -1,3 +1,5 @@
+[Back to main page](https://lykevin2341.github.io/cse15l-lab-reports/index.html)
+
 Elden Ring is really cool.
 *From Software did an amazing job*
 **Malenia was wack though**
