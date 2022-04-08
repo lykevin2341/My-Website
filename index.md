@@ -6,4 +6,4 @@ Here are a few links!
 
 [Format Practice](https://lykevin2341.github.io/cse15l-lab-reports/formattingpractice.html)
 
-[Lab Reports](https://lykevin2341.github.io/cse15l-lab-reports/LabReportshtml)
+[Lab Reports](https://lykevin2341.github.io/cse15l-lab-reports/LabReports.html)
