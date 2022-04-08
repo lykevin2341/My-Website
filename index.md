@@ -2,9 +2,9 @@ Elden Ring is really cool.
 *From Software did an amazing job*
 **Malenia was wack though**
 
-#Look I have a heading
+# Look I have a heading
 
-##Look I have a second heading
+## Look I have a second heading
 
 [Not a scam definitely not](https://www.fromsoftware.jp/ww/)
 
