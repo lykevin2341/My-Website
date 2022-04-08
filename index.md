@@ -23,10 +23,10 @@ Elden Ring is really cool.
 Why am I sideways?:
 ---
 
-'I dont know what inline code is' with backticks
+`I dont know what inline code is` with backticks
 
-'''
+```
 # code block
 print 'Am I doing this right'
 print 'I hope so'
-'''
+```
