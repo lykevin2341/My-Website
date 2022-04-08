@@ -1,1 +1,1 @@
-ELden Rinng is really cool.
+Elden Ring is really cool.
