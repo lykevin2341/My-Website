@@ -1,4 +1,4 @@
-<div style="text-align: center">  Welcome to Kevin Ly's CSE 15L Website </div>
+<h1 align="center">Kevin Ly's CSE 15L Website</h1>
 
 ![image](Images/hacker%20boy.jpg)
 
