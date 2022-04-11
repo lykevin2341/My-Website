@@ -59,16 +59,16 @@ In SSH it lists all the contents of that directory that you are currently in.
 # Moving Files Using SCP
 Step 1. Make sure you are in the directory that the file is located in. If you aren't you can use cd then the name of the folders until you reach that directory. Cd moves you to a directory that you give the name of. For me I had to cd a few times to reach my cse15L folder
 
-![images](Images/directory.png)
+![image](Images/directory.png)
 
 Step 2. Write the command in your standard terminal before logging into the SSH by doing scp (*file name*) cs15lsp22xxx@ieng6.ucsd.edu:~/ (xxx being the 3 letters corresponding to youse username) (The ~/ is the home directory we are copying it to, but you can put whatever location you want there)
-![images](Images/cd%20to%20folder.png)
+![image](Images/cd%20to%20folder.png)
 
 Step 3. It will then ask for your password to your account, type that in like you would when logging in to your SSH and the file transfer should look like this.
-![images](Images/file%20transfer.png)
+![image](Images/file%20transfer.png)
 
 Step 4. Now just log in and run the command ls to list all the contents of your current file directory, and it should show the file. (The screenshot will show the full process if you want to see the whole process)
-![images](Images/full%20process.png)
+![image](Images/full%20process.png)
 
 # Setting an SSH Key (For Windows because that's what I use)
 (Sorry this was the only screenshot I had available, I didn't want to run the key authorization process again and accidentally mess mine up since I already had it set)
@@ -93,7 +93,7 @@ scp (public key path) (This last one you do based on the file path of the public
 
 Step 3. These commands should have set the authorized key and now allows you to run scp and ssh without entering a password.
 
-![images](Images/key%20authorization.png)
+![image](Images/key%20authorization.png)
 (As you can see, I was logged in without a password ever being asked for)
 
 # Optimizing Remote Running
