@@ -46,7 +46,8 @@ The steps to run the commands are simple, just type the command as seen, and if 
 
 ![image](Images/cd%20~%20in%20windows.png)
 
-It seems to not be a working command in windows because there is no home directory named ~
+It seems to not be a working command in windows because there is no home directory named `~`
+
 
 `cd ~ (In SSH)`
 
@@ -54,17 +55,20 @@ It seems to not be a working command in windows because there is no home directo
 
 It works in ssh since it is unix based and returns to the home directory
 
+
 `ls (In Windows)`
 
 ![image](Images/ls%20in%20windows.png)
 
 In Windows it seems that ls is not a functioning command.
 
+
 `ls (In SSH)`
 
 ![image](Images/ls%20in%20ssh.png)
 
 In SSH it lists all the contents of that directory that you are currently in.
+
 
 # Moving Files Using SCP
 Step 1. Make sure you are in the directory that the file is located in. If you aren't you can use `cd` then the name of the folders until you reach that directory. `Cd` moves you to a directory that you give the name of. For me I had to cd a few times to reach my cse15L folder
