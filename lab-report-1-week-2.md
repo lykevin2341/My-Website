@@ -28,6 +28,7 @@ Step 4. After that everything should work and you should be logged in, and see s
 # Running Commands
 Here are a list of some useful commands you can use.
 ![image](Images/Screenshot%202022-04-10%20150959.png)
+
 The steps to run the commands are simple, just type the command as seen, and if the command asks for the directory, use the directory specific to what you want to do.
 
 >Here are some test commands
@@ -68,9 +69,10 @@ Step 3. It will then ask for your password to your account, type that in like yo
 ![image](Images/file%20transfer.png)
 
 Step 4. Now just log in and run the command `ls` to list all the contents of your current file directory, and it should show the file. (The screenshot will show the full process if you want to see the whole process)
+
 ![image](Images/full%20process.png)
 
-# Setting an `SSH` Key (For Windows because that's what I use)
+# Setting an SSH Key (For Windows because that's what I use)
 (Sorry this was the only screenshot I had available, I didn't want to run the key authorization process again and accidentally mess mine up since I already had it set)
 
 Step 1. Run this command `ssh-keygen -t ed25519` in your terminal (It is going to ask for a passphrase, just leave that blank the two times it asks so that you can log in without any password) (You will also told where your key and public key are being stored)
@@ -94,6 +96,7 @@ Step 2. Now keep in mind where the public key is stored and run these commands i
 Step 3. These commands should have set the authorized key and now allows you to run `scp` and `ssh` without entering a password.
 
 ![image](Images/key%20authorization.png)
+
 (As you can see, I was logged in without a password ever being asked for)
 
 # Optimizing Remote Running
@@ -105,4 +108,5 @@ Step 3. These commands should have set the authorized key and now allows you to 
 
 * We can also use the log in command couples with another command that we want to run after the log in by using `""` around the command such as 
 * `ssh cs15lsp22xxx@ieng6.ucsd.edu "ls"`
+
 ![image](Images/log%20in%20and%20ls.png)
