@@ -1,32 +1,40 @@
 [Back to main page](https://lykevin2341.github.io/cse15l-lab-reports/index.html)
 # Downloading and setting up VSCode
 Step 1. Go online and download the installer for VSCode.
+
 ![image](Images/vs%20code%20website.png)
 
 Step 2. You should see the file installed at the bottom of your screen if you are using Chrome. The download location on screen differes based on the browser.
+
 ![image](Images/downloaded.png)
 
 Step 3. Run the installer and let it finish.
+
 ![image](Images/installer.png)
 
 Step 4. After it installs it should look something like this. (Ignore the color scheme, that is just the scheme I chose for myself.)
+
 ![image](Images/Screenshot.png)
 
 
 # Remotely Connecting
 Step 1. Open up the terminal (CMD if you are on Windows, or you can use the VSCode terminal)
+
 ![image](Images/cmd.png)
 
 Step 2. Log in using the command `ssh cs15lsp22xxx@ieng6.ucsd.edu` (xxx is the 3 letters corresponding to your specific username)
+
 ![image](Images/logging%20in.png)
 
 Step 3. Put in your password as prompted in the image above and hit enter. (It won't show the password typing. **Don't Freak out**, it is just for security reasons, just type it normally and it should work)
 
 Step 4. After that everything should work and you should be logged in, and see something similar to this.
+
 ![image](Images/logged%20in.png)
 
 # Running Commands
 Here are a list of some useful commands you can use.
+
 ![image](Images/Screenshot%202022-04-10%20150959.png)
 
 The steps to run the commands are simple, just type the command as seen, and if the command asks for the directory, use the directory specific to what you want to do.
@@ -63,9 +71,11 @@ Step 1. Make sure you are in the directory that the file is located in. If you a
 ![image](Images/directory.png)
 
 Step 2. Write the command in your standard terminal before logging into the `SSH` by doing `scp (*file name*) cs15lsp22xxx@ieng6.ucsd.edu:~/` (xxx being the 3 letters corresponding to youse username) (The `~/` is the home directory we are copying it to, but you can put whatever location you want there)
+
 ![image](Images/cd%20to%20folder.png)
 
 Step 3. It will then ask for your password to your account, type that in like you would when logging in to your `SSH` and the file transfer should look like this.
+
 ![image](Images/file%20transfer.png)
 
 Step 4. Now just log in and run the command `ls` to list all the contents of your current file directory, and it should show the file. (The screenshot will show the full process if you want to see the whole process)
@@ -79,19 +89,20 @@ Step 1. Run this command `ssh-keygen -t ed25519` in your terminal (It is going t
 
 Step 2. Now keep in mind where the public key is stored and run these commands in order
 
-`ssh cs15lsp22xxx@ieng6.ucsd.edu (xxx being your corresponding letters to your username)`
+```
+ssh cs15lsp22xxx@ieng6.ucsd.edu (xxx being your corresponding letters to your username)
 
-`(Enter your password)`
+(Enter your password)
 
-`#now on server`
+#now on server
 
-`mkdir .ssh`
+mkdir .ssh
 
-`logout/exit`
+logout/exit
 
-`#back on client`
-
-`scp (public key path) (This last one you do based on the file path of the public key)`
+#back on client
+scp (public key path) (This last one you do based on the file path of the public key)
+```
 
 Step 3. These commands should have set the authorized key and now allows you to run `scp` and `ssh` without entering a password.
 
