@@ -30,6 +30,7 @@ Step 3. Put in your password as prompted in the image above and hit enter. (It w
 
 Step 4. After that everything should work and you should be logged in, and see something similar to this.
 
+
 ![image](Images/logged%20in.png)
 
 # Running Commands
