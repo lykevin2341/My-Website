@@ -25,7 +25,9 @@ Elden Ring is really cool.
 Why am I sideways?:
 ---
 
-`I dont know what inline code is` with backticks
+>`I dont know what inline code is`
+
+```code```
 
 ```
 # code block
