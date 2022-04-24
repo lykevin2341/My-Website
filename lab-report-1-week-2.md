@@ -1,4 +1,6 @@
 [Back to main page](https://lykevin2341.github.io/cse15l-lab-reports/index.html)
+
+[Back to lab reports](https://lykevin2341.github.io/cse15l-lab-reports/LabReports.html)
 # Downloading and setting up VSCode
 Step 1. Go online and download the installer for VSCode.
 
