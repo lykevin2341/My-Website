@@ -13,7 +13,7 @@ In this lab I will be showing some of the updates my partners and I made to the 
 ![image](Images/first%20update%20commit.png)
 
 >Link to the failure inducing input file:
-[Test File Link](https://github.com/dfeliton/markdown-parser/blob/main/different-test-file.md)
+[Test File Link](https://github.com/dfeliton/markdown-parser/blob/main/different-test-file.md?plain=1)
 
 ![image](Images/first%20update%20commit%20error%20output.png)
 
@@ -24,7 +24,7 @@ In this lab I will be showing some of the updates my partners and I made to the 
 ![image](Images/Second%20update%20commit.png)
 
 >Link to failure inducing input:
-[Test File Link](https://github.com/dfeliton/markdown-parser/blob/main/test-file2.md)
+[Test File Link](https://github.com/dfeliton/markdown-parser/blob/main/test-file2.md?plain=1)
 
 ![image](Images/Second%20update%20ommit%20error.png)
 
@@ -36,9 +36,7 @@ In this lab I will be showing some of the updates my partners and I made to the 
 ![image](Images/Third%20update%20commit%202.png)
 
 >Link to failure inducing input:
-[Test File Link](https://github.com/dfeliton/markdown-parser/blob/main/test-file3.md)
-
-https://github.com/dfeliton/markdown-parser/blob/main/test-file3.md
+[Test File Link](https://github.com/dfeliton/markdown-parser/blob/main/test-file3.md?plain=1)
 
 ![image](Images/third%20update%20commit%20error.png)
 
