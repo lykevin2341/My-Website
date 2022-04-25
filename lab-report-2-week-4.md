@@ -38,6 +38,8 @@ In this lab I will be showing some of the updates my partners and I made to the 
 >Link to failure inducing input:
 [Test File Link](https://github.com/dfeliton/markdown-parser/blob/main/test-file3.md)
 
+https://github.com/dfeliton/markdown-parser/blob/main/test-file3.md
+
 ![image](Images/third%20update%20commit%20error.png)
 
 >The the failure inducing input is having no URL's or invalid URL's in the markdown file. There is an bug in the code that doesn't account for any extra characters besides where the "[]" and "()" are expected to be, so it causes infinite loops. This prints proper errors to avoid these symptops of infinite loops.
