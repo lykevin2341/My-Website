@@ -32,11 +32,10 @@ In this lab I will be showing some of the updates my partners and I made to the 
 
 ## Third: Having No URL's or Valid URL's In Markdown File
 
-![image](Images/Third%20update%20commit.png)
-![image](Images/Third%20update%20commit%202.png)
+![image](Images/test%20file%204%20commit.png)
 
 >Link to failure inducing input:
-[Test File Link](https://github.com/dfeliton/markdown-parser/blob/main/test-file3.md?plain=1)
+[Test File Link](https://github.com/dfeliton/markdown-parser/blob/main/test-file4.md?plain=1)
 
 ![image](Images/third%20update%20commit%20error.png)
 
