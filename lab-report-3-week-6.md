@@ -24,7 +24,7 @@ In this step, I will be making the ssh log in process more streamlined by using 
 ![image](Lab3Images/SCP%20with%20ieng6.png)
 
 
-# Setup GitHub Access from ieng6
+## Setup GitHub Access from ieng6
 
 ```
 For this step I made it so that github commands such as "push" and "commit" can be done through ieng6
@@ -44,4 +44,16 @@ For this step I made it so that github commands such as "push" and "commit" can 
 
 [Link to the commit on GitHub](https://github.com/lykevin2341/markdown-parser/commit/08f9e6d9e8198e002b7a7fcb66dadbe3f17ad11a)
 
-## 
+## Copy Whole Directories with `scp -r`
+
+```
+For this step, we are copying entire directories instead of singular files at a time using the command "scp -r"
+```
+
+>This step had a really long list of things getting copied over, but I split it into three screen shots to show the most important parts of it copying. (There was also a mistkae I made where I copied the wrong directory, cse15l-lab-reports, and can't seem to remove it.)
+
+![image](Lab3Images/scp%20all%20file%201.png)
+![image](Lab3Images/scp%20all%20file%202.png)
+![image](Lab3Images/scp%20all%20file%203.png)
+
+>This next step shows 
