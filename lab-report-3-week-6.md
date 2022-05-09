@@ -50,7 +50,7 @@ For this step I made it so that github commands such as "push" and "commit" can 
 For this step, we are copying entire directories instead of singular files at a time using the command "scp -r"
 ```
 
->This step had a really long list of things getting copied over, but I split it into three screen shots to show the most important parts of it copying.
+>This step had a really long list of things getting copied over, but I split it into three screen shots to show the most important parts of it copying. (The time on image 3 is different because I had originally accidentally scp'ed from the wrong directory and had to fix it after taking all the screenshots.)
 
 ![image](Lab3Images/scp%20all%20file%201.png)
 ![image](Lab3Images/scp%20all%20file%202.png)
@@ -61,4 +61,7 @@ For this step, we are copying entire directories instead of singular files at a 
 ![image](Lab3Images/java%20compile%20and%20run%201.png)
 ![image](Lab3Images/java%20compile%20and%20run%202.png)
 
->This last step I try to scp, ssh, and run the tests in one single line
+>This last step I try to scp, ssh, and run the tests in one single line. It worked, but of course my `MarkdownParseTest` seems to have one failure each time it runs, but the single line worked.
+
+![image](Lab3Images/all%20in%20one%20line%201.png)
+![image](Lab3Images/all%20in%20one%20line%202.png)
