@@ -50,10 +50,15 @@ For this step I made it so that github commands such as "push" and "commit" can 
 For this step, we are copying entire directories instead of singular files at a time using the command "scp -r"
 ```
 
->This step had a really long list of things getting copied over, but I split it into three screen shots to show the most important parts of it copying. (There was also a mistkae I made where I copied the wrong directory, cse15l-lab-reports, and can't seem to remove it.)
+>This step had a really long list of things getting copied over, but I split it into three screen shots to show the most important parts of it copying.
 
 ![image](Lab3Images/scp%20all%20file%201.png)
 ![image](Lab3Images/scp%20all%20file%202.png)
 ![image](Lab3Images/scp%20all%20file%203.png)
 
->This next step shows 
+>This next step is me running and compiling my `MarkdownParseTest.java` file with `javac -cp .:lib\junit-4.13.2.jar:lib\hamcrest-core-1.3.jar MarkdownParseTest.java`, which for some reason has issues compiling when it works fine on my local computer. There is also a single failure when running the file using `java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest` This seems to have shown up after the latest lab and for some reason I can't fix it.
+
+![image](Lab3Images/java%20compile%20and%20run%201.png)
+![image](Lab3Images/java%20compile%20and%20run%202.png)
+
+>This last step I try to scp, ssh, and run the tests in one single line
