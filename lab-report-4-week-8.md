@@ -7,16 +7,16 @@
 ## MarkdownParse Tests Written
 > These are the tests that I wrote for the three snippets. These are the same tests in my markdown parse and the markdown parse that I reviewed. It show cases the expected values, and asserts whether my current markdown's output equals the expected.
 
-![image](/Lab4Images/snippet%20tests.png)
+![image](Lab4Images/snippet%20tests.png)
 
 ## My MarkdownParse Output
 
-![image](/Lab4Images/my%20tests.png)
+![image](Lab4Images/my%20tests.png)
 > I passed test 1 but not 2 or 3
 
 ## The MarkdownParse I Reviewed's Output
 
-![image](/Lab4Images/reviewed%20tests.png)
+![image](Lab4Images/reviewed%20tests.png)
 > None of the tests passed
 
 
