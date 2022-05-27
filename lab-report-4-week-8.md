@@ -11,18 +11,17 @@
 
 ## My MarkdownParse Output
 
-![image](Lab4Images/my%20tests.png)
-> I passed test 1 but not 2 or 3
+![image](Lab4Images/Gregory%20miranda.png)
+> I passed none of the tests
 
 ## The MarkdownParse I Reviewed's Output
 
 ![image](Lab4Images/reviewed%20tests.png)
 > None of the tests passed
 
-
 # Possible Fixes to MarkdownParse
 ## Snippet 1
-I passed this specific test with snippit 1, but I am uncertain if it would pass with all tests that have backticks. It is possible I had the incorrect expected value, if that is the case, I should add a line that accounts for specifically back ticks in my markdown parse. (I genuinely don't know why my test passes)
+I think a possible code fix would be to add a line that accounts for specifically back ticks in my markdown parse. This might be able to account for the different links like `google.com.
 
 ## Snippet 2
 I think a possible code fix could be some type of code counter to keep track of whether the parenthesis is inside of a brace or not, and then have an if statement that would see if it is a nested parenthesis and work accordingly.
