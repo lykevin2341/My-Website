@@ -55,3 +55,13 @@ Step 5. Finally I used the command `vimdiff markdown-parser/results2.txt cse15ls
 * This was the expected output using the preview option in VSCode provided to us, though the preview say a, when hovered over, the link is "tit"
 
 ![image](Lab5Images/snippet%202%20thing.png)
+
+* And this was the output from my `markdown-parse` (on the left) and the `cse15lsp22` one (on the right)
+
+![image](Lab5Images/error%202.png)
+
+*Location of possible error in code (image below)
+
+![image](Lab5Images/error%20in%20code%201.png)
+
+* I think the error in my `markdown-parse` is the same as my previous solution. I am throwing an unnecessary error message. If I added an if statement that can acount for spacing or check to see for extra words inside the parenthesis that aren't in quotations so that it can print the proper link name.
