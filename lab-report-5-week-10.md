@@ -34,7 +34,7 @@ Step 5. Finally I used the command `vimdiff markdown-parser/results2.txt cse15ls
 **File 1.** https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/201.md
 
 * For this test my `markdown-parse` was incorrect and had the wrong output, while the `cse15lsp22 markdown-parse` was correct for test file 201.md
-* This was the expected output using the preview option in VSCode provided to us, though the preview says foo, when hoevered over, the link is baz.
+* This was the expected output using the preview option in VSCode provided to us, though the preview says foo, when hovered over, the link is baz.
 
 ![image](Lab5Images/prevbiew%20201.png)
 
@@ -49,4 +49,9 @@ Step 5. Finally I used the command `vimdiff markdown-parser/results2.txt cse15ls
 
 * For my `markdown-parse` it seems that the reason my code isn't working is because of the ":" and space between teh end bracket and the opening parenthesis, it seems to not be able to tell that there is still a parenthesis after, and so it just outputs out failure statement about having valid url's. Something I think I can do is to change the condition of my if statement that checks whether there is an open or closed bracket, it seesm to assume they will conme directly after each other. This could be what is causing the code to output the error message instead of printing baz.
 
-**File 2.** 
+**File 2.** https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/41.md
+
+* For this test, my `markdown-parse` was incorrect as well as the `cse15lsp22 markdown-parser` as well. Both had the incorrect output for the file
+* This was the expected output using the preview option in VSCode provided to us, though the preview say a, when hovered over, the link is "tit"
+
+![image](Lab5Images/snippet%202%20thing.png)
